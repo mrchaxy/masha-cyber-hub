@@ -5,7 +5,6 @@ const prices = [
   { service: "Photocopying", price: "KES 5/page", note: "Single-sided" },
   { service: "Scanning", price: "KES 20/page", note: "Digital copy" },
   { service: "Passport Photo", price: "KES 200", note: "4 photos" },
-  { service: "Gaming (1 hr)", price: "KES 100", note: "Pro gaming rig" },
   { service: "CV/Document Typing", price: "From KES 200", note: "Per document" },
 ];
 
