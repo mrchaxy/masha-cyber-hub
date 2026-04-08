@@ -1,5 +1,5 @@
 import heroImg from "@/assets/hero-cyber.jpg";
-import { Monitor, Wifi, Printer, Gamepad2 } from "lucide-react";
+import { Monitor, Wifi, Printer, Package } from "lucide-react";
 
 const Hero = () => {
   return (
