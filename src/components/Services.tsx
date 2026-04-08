@@ -1,15 +1,14 @@
-import { Monitor, Printer, Gamepad2, Wifi, Camera, FileText, Globe, Headphones, Package } from "lucide-react";
+import { Monitor, Printer, Wifi, Camera, FileText, Globe, Headphones, Package } from "lucide-react";
 
 const services = [
   { icon: Monitor, title: "Computer Access", desc: "High-performance PCs with latest software for all your needs", size: "col-span-2 row-span-2" },
-  { icon: Wifi, title: "High-Speed WiFi", desc: "Lightning fast 100Mbps connection", size: "col-span-1 row-span-1" },
+  { icon: Wifi, title: "High-Speed WiFi", desc: "Lightning fast internet connection", size: "col-span-1 row-span-1" },
   { icon: Printer, title: "Printing & Scanning", desc: "Color & B/W printing, scanning, photocopying", size: "col-span-1 row-span-1" },
-  { icon: Gamepad2, title: "Gaming Zone", desc: "Pro gaming rigs with top titles", size: "col-span-1 row-span-2" },
   { icon: Camera, title: "Passport Photos", desc: "Quick ID & passport photo services", size: "col-span-1 row-span-1" },
   { icon: FileText, title: "Document Services", desc: "CV writing, typing, formatting", size: "col-span-1 row-span-1" },
   { icon: Globe, title: "Online Services", desc: "M-Pesa, NTSA, eCitizen, registrations", size: "col-span-2 row-span-1" },
   { icon: Headphones, title: "Tech Support", desc: "Troubleshooting & device repairs", size: "col-span-1 row-span-1" },
-  { icon: Package, title: "Kilimall Pick-Up Station", desc: "Collect your Kilimall orders here — convenient & hassle-free", size: "col-span-2 row-span-1" },
+  { icon: Package, title: "Kilimall Pick-Up Station", desc: "Collect your Kilimall orders here — convenient & hassle-free", size: "col-span-1 row-span-1" },
 ];
 
 const Services = () => {
