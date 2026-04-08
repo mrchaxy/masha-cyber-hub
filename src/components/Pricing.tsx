@@ -6,7 +6,6 @@ const prices = [
   { service: "Scanning", price: "KES 20/page", note: "Digital copy" },
   { service: "Passport Photo", price: "KES 200", note: "4 photos" },
   { service: "CV/Document Typing", price: "From KES 200", note: "Per document" },
-  { service: "CV/Document Typing", price: "From KES 200", note: "Per document" },
 ];
 
 const Pricing = () => {
