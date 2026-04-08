@@ -1,4 +1,4 @@
-import { Monitor, Printer, Gamepad2, Wifi, Camera, FileText, Globe, Headphones } from "lucide-react";
+import { Monitor, Printer, Gamepad2, Wifi, Camera, FileText, Globe, Headphones, Package } from "lucide-react";
 
 const services = [
   { icon: Monitor, title: "Computer Access", desc: "High-performance PCs with latest software for all your needs", size: "col-span-2 row-span-2" },
@@ -9,6 +9,7 @@ const services = [
   { icon: FileText, title: "Document Services", desc: "CV writing, typing, formatting", size: "col-span-1 row-span-1" },
   { icon: Globe, title: "Online Services", desc: "M-Pesa, NTSA, eCitizen, registrations", size: "col-span-2 row-span-1" },
   { icon: Headphones, title: "Tech Support", desc: "Troubleshooting & device repairs", size: "col-span-1 row-span-1" },
+  { icon: Package, title: "Kilimall Pick-Up Station", desc: "Collect your Kilimall orders here — convenient & hassle-free", size: "col-span-2 row-span-1" },
 ];
 
 const Services = () => {
