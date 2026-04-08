@@ -9,6 +9,7 @@ const services = [
   { icon: FileText, title: "Document Services", desc: "CV writing, typing, formatting", size: "col-span-1 row-span-1" },
   { icon: Globe, title: "Online Services", desc: "M-Pesa, NTSA, eCitizen, registrations", size: "col-span-2 row-span-1" },
   { icon: Headphones, title: "Tech Support", desc: "Troubleshooting & device repairs", size: "col-span-1 row-span-1" },
+  { icon: Package, title: "Kilimall Pick-Up Station", desc: "Collect your Kilimall orders here — convenient & hassle-free", size: "col-span-2 row-span-1" },
 ];
 
 const Services = () => {
