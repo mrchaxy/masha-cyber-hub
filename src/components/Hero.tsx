@@ -50,7 +50,7 @@ const Hero = () => {
             { icon: Monitor, label: "Computers", value: "3" },
             { icon: Wifi, label: "Speed", value: "Fast" },
             { icon: Printer, label: "Printing", value: "24/7" },
-            { icon: Gamepad2, label: "Gaming", value: "Pro Setup" },
+            { icon: Package, label: "Kilimall", value: "Pick-Up" },
           ].map((stat) => (
             <div key={stat.label} className="flex flex-col items-center gap-2 p-4 rounded-lg border border-primary/10 bg-card/50 backdrop-blur-sm">
               <stat.icon className="w-5 h-5 text-primary" />
