@@ -12,9 +12,9 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
           {[
             { icon: MapPin, title: "Location", detail: "Masha Area, Nairobi", sub: "Near the main stage" },
-            { icon: Phone, title: "Call Us", detail: "+254 700 000 000", sub: "Mon-Sat, 7am-10pm" },
+            { icon: Phone, title: "Call Us", detail: "0114 702 223", sub: "Mon-Sat, 7am-10pm" },
             { icon: Clock, title: "Hours", detail: "7:00 AM - 10:00 PM", sub: "Monday to Saturday" },
-            { icon: MessageCircle, title: "WhatsApp", detail: "Chat with us", sub: "Quick responses" },
+            { icon: MessageCircle, title: "WhatsApp", detail: "0114 702 223", sub: "Quick responses" },
           ].map((c) => (
             <div key={c.title} className="p-6 rounded-xl border border-primary/10 bg-card/60 backdrop-blur-sm text-center hover:glow-border transition-all duration-300">
               <div className="w-12 h-12 rounded-full gradient-primary flex items-center justify-center mx-auto mb-4">
