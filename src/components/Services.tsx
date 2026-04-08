@@ -1,4 +1,4 @@
-import { Monitor, Printer, Gamepad2, Wifi, Camera, FileText, Globe, Headphones } from "lucide-react";
+import { Monitor, Printer, Gamepad2, Wifi, Camera, FileText, Globe, Headphones, Package } from "lucide-react";
 
 const services = [
   { icon: Monitor, title: "Computer Access", desc: "High-performance PCs with latest software for all your needs", size: "col-span-2 row-span-2" },
