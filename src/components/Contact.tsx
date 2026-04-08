@@ -12,9 +12,9 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
           {[
             { icon: MapPin, title: "Location", detail: "Masha Area, Nairobi", sub: "Near the main stage" },
-            { icon: Phone, title: "Call Us", detail: "+254 700 000 000", sub: "Mon-Sat, 7am-10pm" },
+            { icon: Phone, title: "Call Us", detail: "0114 702 223", sub: "Mon-Sat, 7am-10pm" },
             { icon: Clock, title: "Hours", detail: "7:00 AM - 10:00 PM", sub: "Monday to Saturday" },
-            { icon: MessageCircle, title: "WhatsApp", detail: "Chat with us", sub: "Quick responses" },
+            { icon: MessageCircle, title: "WhatsApp", detail: "0114 702 223", sub: "Quick responses" },
           ].map((c) => (
             <div key={c.title} className="p-6 rounded-xl border border-primary/10 bg-card/60 backdrop-blur-sm text-center hover:glow-border transition-all duration-300">
               <div className="w-12 h-12 rounded-full gradient-primary flex items-center justify-center mx-auto mb-4">
@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="inline-block p-8 rounded-2xl border border-primary/20 bg-card/40 backdrop-blur-sm glow-box">
             <h3 className="font-heading text-xl font-bold text-foreground mb-2">Ready to get connected?</h3>
             <p className="text-muted-foreground text-sm mb-6">Walk in today or call to reserve your spot.</p>
-            <a href="tel:+254700000000" className="gradient-primary px-8 py-3 rounded-lg font-heading text-sm uppercase tracking-widest text-primary-foreground inline-block hover:scale-105 transition-transform">
+            <a href="tel:0114702223" className="gradient-primary px-8 py-3 rounded-lg font-heading text-sm uppercase tracking-widest text-primary-foreground inline-block hover:scale-105 transition-transform">
               Call Now
             </a>
           </div>
